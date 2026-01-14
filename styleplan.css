@@ -11,8 +11,8 @@ tr{
 	background-color: green
 
 }
-tr[data-cell="r_informat."] {
+td[data-cell="r_informat."] {
   background-color: pink;
-  border: 2px solid red;
 }
+
 

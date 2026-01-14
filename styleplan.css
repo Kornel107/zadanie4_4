@@ -9,4 +9,9 @@ p{  text-transform: uppercase
 }
 tr{
 	background-color: green
+
+}
+td[data-cell="r_informat."] {
+  background-color: pink;
+  border: 2px solid red;
 }

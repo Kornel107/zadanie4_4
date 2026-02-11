@@ -1,0 +1,47 @@
+ <!--
+Rozwiązanie z wykorzystaniem elementu  submit.
+--> 
+<html lang="pl">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="Content-Script-Type" content="text/javascript">  
+  
+<script type=text/javascript>
+function weryfikuj(x){
+if (x.toString().length < 3)
+    alert ("Pole winno zawierać co najmiej 3 znaki!");
+}
+
+</script>
+</head>
+
+  <form name="formularz1" >
+ 
+<p> Proszę podać swoje dane:   <br />
+    <i>(Pola oznaczone * muszą mieć co namniej 3 znaki)</i>    <br /><br />
+    </p>
+
+    <table>
+
+    <tr>
+      <td><b>Dane personalne:</b></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>imię:</td>
+      <td><input type="text" name="imie" onchange="weryfikuj(this.value);">*</td>
+    </tr>
+    <tr>
+      <td>nazwisko:</td>
+      <td><input type="text" id="nazwisko"></td>
+    </tr>
+    <tr>
+      <td></td>
+	  <td align="center">
+      <input type="submit" name="wyslij"   value="   Wyślij!   ">      
+    </tr>
+    </table>
+
+</form>
+</body>
+</html>

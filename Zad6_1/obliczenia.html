@@ -7,7 +7,7 @@
 <script language="JavaScript">
 
 function dodawanie() {
-/* Odwo³anie do formularza i jego elementów przez nazwê*/
+/* OdwoÂ³anie do formularza i jego elementÃ³w przez nazwÃª*/
 var skl1=parseFloat(document.Form.a.value);
 var skl2=parseFloat(document.Form.b.value);
 var wynik = skl1+skl2;
@@ -18,15 +18,15 @@ alert(wynik);
 <form name="Form">
 a=<input type="Text" name="a"><br>
 b=<input type="Text" name="b"><br>
-<input type="Button" value="Oblicz sumê" onclick="dodawanie()">
+<input type="Button" value="Oblicz sumÄ™" onclick="dodawanie()">
 </form>
 <hr>
 
 <script language="JavaScript">
 function odejmowanie() {
-/* Odwo³anie do formularza i jego elementów przez indeks
-Formularz o nazwie jakas_wymyslona_nazwa1 jest drugim formularzem w dokumencie wiêc ma indeks równy 1
-Pole tekstowe o nazwie jakas_wymyslona_nazwa2 jest pierwszym elementem formularza wiêc ma indeks równy 0
+/* OdwoÂ³anie do formularza i jego elementÃ³w przez indeks
+Formularz o nazwie jakas_wymyslona_nazwa1 jest drugim formularzem w dokumencie wiÃªc ma indeks rÃ³wny 1
+Pole tekstowe o nazwie jakas_wymyslona_nazwa2 jest pierwszym elementem formularza wiÃªc ma indeks rÃ³wny 0
 */
 var skl1=parseFloat(document.forms[1].elements[0].value);
 var skl2=parseFloat(document.forms[1].elements[1].value);
@@ -38,11 +38,11 @@ alert(wynik);
 <form name="jakas_wymyslona_nazwa1">
 a=<input type="Text" name="jakas_wymyslona_nazwa2"><br>
 b=<input type="Text" name="jakas_wymyslona_nazwa3"><br>
-<input type="Button" value="Oblicz ró¿nicê" onclick="odejmowanie()">
+<input type="Button" value="Oblicz rÃ³Å¼nicÄ™" onclick="odejmowanie()">
 </form>
 
 <script language="JavaScript">
-function mno¿enie() {
+function mnoÂ¿enie() {
 var skl1=parseFloat(document.forms[2].elements[0].value);
 var skl2=parseFloat(document.forms[2].elements[1].value);
 var wynik = skl1*skl2;
@@ -54,7 +54,7 @@ alert(wynik);
 <form name="cos1">
 a=<input type="Text" name="cos2"><br>
 b=<input type="Text" name="cos3"><br>
-<input type="Button" value="Pomnó¿" onclick="mno¿enie()">
+<input type="Button" value="PomnÃ³Å¼" onclick="mnoÂ¿enie()">
 </form>
 
 <script language="JavaScript">
@@ -76,3 +76,4 @@ b=<input type="Text" name="cos3"><br>
 
 </body>
 </html>
+
